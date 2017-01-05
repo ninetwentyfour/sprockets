@@ -14,8 +14,7 @@ module Sprockets
         "application/vnd.ms-fontobject" => true,
         "application/x-font-opentype" => true,
         "application/x-font-ttf" => true,
-        "image/x-icon" => true,
-        "image/svg+xml" => true
+        "image/x-icon" => true
       }
 
       # Private: Returns whether or not an asset can be compressed.
