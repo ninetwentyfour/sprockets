@@ -150,7 +150,7 @@ module Sprockets
         else
           dependencies << build_file_digest_uri(unloaded.filename)
           metadata = {
-            digest: file_digest(unloaded.filename),
+            digest: file_digest(self.version + unloaded.filename),
             length: self.stat(unloaded.filename).size,
             dependencies: dependencies
           }
